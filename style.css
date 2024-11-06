@@ -1,3 +1,29 @@
+.background{
+    background-color: rgb(117, 82, 82);
+    color: white;
+    padding: 5%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+.storybutton button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.storybutton button:hover{
+    transition: all;
+    scale: 0.7;
+    transition-duration: 0.6s
+}
+footer{
+    margin-bottom: 10%;
+}
+.storybutton{
+    text-align: center;
+}
 .container{
     background-color: rgb(241, 224, 192);
     margin-left: 10px;
@@ -5,6 +31,16 @@
     margin-top: 30px;
     padding-top: 20px;
     border-radius: 3%;
+}
+.picturehead{
+    padding: 5%;
+    display: flex;
+    color: blue;
+    font-family: sans-serif;
+}
+.picturehead img{
+    border-radius: 50%;
+    margin-right: 5%;
 }
 nav{
     padding-left: 40px;
@@ -44,7 +80,6 @@ p{
 }
 .container2{
     background-color: rgb(241, 224, 192);
-    border-radius: 3%;
     margin-right: 3%;
     margin-left: 3%;
 }
@@ -57,32 +92,35 @@ p{
     align-items: center;
     justify-content: center;
     padding-bottom: 10%;
+    color: rgb(5, 5, 95);
 }
 .float img{
     height: 300px;
     width: 300px;
     padding-right: 10%;
+    border-radius: 10%;
 }
 .float img:hover{
     transition: all;
     transition-duration: 0.4s;
-    scale: 0.9;
+    scale: 0.7;
 }
 .float2{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    color: rgb(5, 5, 95);
 }
 .float2 img{
     height: 300px;
     width: 300px;
     padding-right: 0%;
     margin-left: 5%;
+    border-radius: 10%;
 }
 .float2 img:hover{
     transition: all;
-    transition-duration: 0.6s;
-    transition
-    scale: 0.9
+    transition-duration: 0.4s;
+    scale: 0.7
 }
