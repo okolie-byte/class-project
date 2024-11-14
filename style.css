@@ -1,9 +1,29 @@
+.banner2{
+    width: 97%;
+    height: 70vh;
+    background-image: url(images/pexels-tuan-pm-1320993433-28763352.jpg);
+    background-size: cover;
+    background-position: 60%;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-top: 1%;
+}
 .background{
-    background-color: rgb(117, 82, 82);
+    background-color: rgb(104, 73, 73);
     color: white;
-    padding: 5%;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
+    padding: 4%;
+    margin-top: 15%;
+}
+.homeheader{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    font-size: larger;
+}
+.homeheader h3{
+    font-style: italic;
+    font-size: large;
 }
 .storybutton button{
     padding: 10px;
@@ -12,20 +32,22 @@
     color: black;
     font-size: 16px;
     font-family: sans-serif;
+    color: rgb(117, 82, 82);
+    stroke: none;
 }
 .storybutton button:hover{
+    background-color: rgb(127, 127, 224);
+    opacity: 70%;
     transition: all;
     scale: 0.7;
     transition-duration: 0.6s
 }
-footer{
-    margin-bottom: 10%;
-}
+
 .storybutton{
     text-align: center;
 }
 .container{
-    background-color: rgb(241, 224, 192);
+    background-color: rgb(241, 239, 227);
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
@@ -43,12 +65,13 @@ footer{
     margin-right: 5%;
 }
 nav{
-    padding-left: 40px;
+    padding-left: 20px;
     display: flex;
     background-color: blue
 }
 nav button{
-    border-radius: 10px;
+    border-radius: 7px;
+    
 }
 nav button :hover{
     color: red;
@@ -79,7 +102,7 @@ p{
     font-family: sans-serif;
 }
 .container2{
-    background-color: rgb(241, 224, 192);
+    background-color:  rgb(241, 239, 227);
     margin-right: 3%;
     margin-left: 3%;
 }
@@ -95,8 +118,8 @@ p{
     color: rgb(5, 5, 95);
 }
 .float img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 180px;
     padding-right: 10%;
     border-radius: 10%;
 }
@@ -113,8 +136,8 @@ p{
     color: rgb(5, 5, 95);
 }
 .float2 img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 180px;
     padding-right: 0%;
     margin-left: 5%;
     border-radius: 10%;
@@ -123,4 +146,28 @@ p{
     transition: all;
     transition-duration: 0.4s;
     scale: 0.7
+}
+footer{
+    background-color: black;
+    color: rgb(236, 236, 160);
+    padding: 0.3%;
+    margin-top: 5%;
+    font-style: italic;
+    margin-bottom: 2%;
+}
+.programsection{
+    padding: 50px;
+    text-align: center;
+    
+}
+.programgrid{
+    display: flex;
+    justify-content: center;
+}
+.programcard{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 25%;
 }
